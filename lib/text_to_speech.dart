@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 
 class Text_to_Speech extends StatefulWidget {
   const Text_to_Speech({super.key});
@@ -8,6 +9,7 @@ class Text_to_Speech extends StatefulWidget {
 }
 
 class _Text_to_SpeechState extends State<Text_to_Speech> {
+  FlutterTts flutterTts = FlutterTts();
   @override
   void initState() {
     super.initState();

@@ -5,7 +5,7 @@ git add .
 
 # Commit changes with the specified commit message
 git commit -m "
-feat: add init state functionality
+feat: initialize fluttertts instance
 "
 # Push changes to the remote repository
 git push origin HEAD
