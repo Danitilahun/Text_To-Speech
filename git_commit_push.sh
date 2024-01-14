@@ -5,7 +5,7 @@ git add .
 
 # Commit changes with the specified commit message
 git commit -m "
-feat: start text to speech
+feat: add init state functionality
 "
 # Push changes to the remote repository
 git push origin HEAD
